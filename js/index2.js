@@ -40,8 +40,8 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000,
         arrows: true,
-        prevArrow:'<img class="slick-prev" src="../img/arrow prev.png">',
-        nextArrow:'<img class="slick-next" src="../img/arrow next.png">',
+        prevArrow:'<img class="slick-prev" src="./img/arrow prev.png">',
+        nextArrow:'<img class="slick-next" src="./img/arrow next.png">',
         customPaging : function(slider, i) {
             return "<div class='square'></div>";
         },
@@ -71,8 +71,8 @@ $(document).ready(function(){
         autoplay: true,
         autoplaySpeed: 2000,
         arrows: true,
-        prevArrow:'<img class="slick-prev" src="../img/arrow prev b.png">',
-        nextArrow:'<img class="slick-next" src="../img/arrow next b.png">',
+        prevArrow:'<img class="slick-prev" src="./img/arrow prev b.png">',
+        nextArrow:'<img class="slick-next" src="./img/arrow next b.png">',
         customPaging : function(slider, i) {
             return "<div class='square'></div>";
         },
@@ -103,8 +103,8 @@ $(document).ready(function(){
         slidesToShow: 4,
         arrows: true,
         mobileFirst: true,
-        prevArrow:'<img class="slick-prev" src="../img/arrow prev b.png">',
-        nextArrow:'<img class="slick-next" src="../img/arrow next b.png">',
+        prevArrow:'<img class="slick-prev" src="./img/arrow prev b.png">',
+        nextArrow:'<img class="slick-next" src="./img/arrow next b.png">',
         mobileFirst:true,
         responsive: [
             {
